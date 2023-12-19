@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    .section1{
+        display: flex;
+        padding: $padding;
+        margin: $margin;
+        .img-carrusel{
+            width: 600px;
+        }    
+    }
+    .section{
+        padding: $padding;
+        margin: $margin;
+        .div-img{
+            text-align: center;
+            .img-section{
+                border: double pink;
+                margin: $margin;
+                padding: $padding;
+                width: 80%;
+                &:hover{
+                    border: white solid 2px;
+                }
+            }
+        }
+        
+    }
+}
